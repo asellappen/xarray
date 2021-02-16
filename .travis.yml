@@ -15,11 +15,11 @@ dist: focal
 matrix:
   fast_finish: true
   include:
-  - env: PYTHON_VERSION="3.6"
   - env: PYTHON_VERSION="3.7"
-  - env: PYTHON_VERSION="3.6"
+  - env: PYTHON_VERSION="3.9"
+  - env: PYTHON_VERSION="3.7"
     arch:  ppc64le
-  - env: PYTHON_VERSION="3.7"
+  - env: PYTHON_VERSION="3.9"
     arch:  ppc64le
 
 sudo: required
