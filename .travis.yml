@@ -38,7 +38,8 @@ before_install:
   - conda config --set auto_update_conda False
   - conda update -q --all
   - conda install python=$PYTHON_VERSION pip
-  - conda install flake8 black pytest mypy isort numpy pandas cftime netCDF4 dask 
+  - conda install flake8 black pytest mypy isort numpy pandas cftime dask 
+  #- conda install netCDF4
   - conda install -c anaconda scipy
   - conda install -y pyyaml 
   - conda install -c anaconda llvm
