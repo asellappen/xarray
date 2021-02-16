@@ -37,7 +37,7 @@ before_install:
   - conda config --set always_yes yes
   - conda config --set auto_update_conda False
   - conda update -q --all
-  - conda install python=$PYTHON_VERSION pip
+  - conda install python=$PYTHON_VERSION 
   - conda install flake8 pytest mypy  numpy pandas cftime dask 
   - conda install -c anaconda scipy
 #  - conda install -y pyyaml 
