@@ -40,7 +40,6 @@ before_install:
   - conda install python=$PYTHON_VERSION 
   - conda install flake8 pytest mypy  numpy pandas cftime dask 
   - conda install -c anaconda scipy
-#  - conda install -y pyyaml 
   - conda install -c anaconda llvm
   - conda install llvmlite==0.32.1
   - sudo apt-get install llvm-10* 
@@ -48,7 +47,6 @@ before_install:
   - ln -s /usr/include/llvm-10/llvm/Config/llvm-config.h config.h
   - sudo apt-get install llvm-10 lldb-10 llvm-10-dev libllvm10 llvm-10-runtime
   - pip3 install numba==0.47.0
- # - pip3 install numba==0.43.1 
   - conda install -c anaconda bottleneck
   - pip3 install numbagg
 install:
