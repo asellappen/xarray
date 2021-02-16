@@ -47,7 +47,8 @@ before_install:
   - export LLVM_CONFIG=/usr/bin/llvm-config-10
   - ln -s /usr/include/llvm-10/llvm/Config/llvm-config.h config.h
   - sudo apt-get install llvm-10 lldb-10 llvm-10-dev libllvm10 llvm-10-runtime
-  - pip3 install numba==0.43.1
+  - pip3 install numba==0.47.0
+ # - pip3 install numba==0.43.1 
   - conda install -c anaconda bottleneck
   - pip3 install numbagg
 install:
