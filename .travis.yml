@@ -52,5 +52,6 @@ before_install:
 install:
   - pip3 install --no-deps -e .
 script:
+  - python -m pytest -v  xarray/tests/
   - python -m pytest --doctest-modules xarray --ignore xarray/tests
   - flake8
