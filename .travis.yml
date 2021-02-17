@@ -11,6 +11,7 @@
 # ----------------------------------------------------------------------------
 language: python
 dist: focal
+python: 3.7
 
 matrix:
   fast_finish: true
